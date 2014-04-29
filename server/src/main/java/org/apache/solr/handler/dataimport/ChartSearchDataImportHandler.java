@@ -53,32 +53,7 @@ import org.apache.solr.handler.dataimport.custom.PatientInfoProviderCSVImpl;
 import org.apache.solr.handler.dataimport.custom.SolrConfigParams;
 import org.apache.solr.handler.dataimport.custom.SolrQueryInfo;
 import org.apache.solr.request.SolrQueryRequest;
-import org.apache.solr.request.SolrRequestHandler;
-import org.apache.solr.response.RawResponseWriter;
-import org.apache.solr.response.SolrQueryResponse;
-import org.apache.solr.util.plugin.SolrCoreAware;
-import org.openmrs.module.chartsearch.server.ConfigCommands;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
-
-/**
- * TODO refactor! too many responsibilities
- */
-public class ChartSearchDataImportHandler extends RequestHandlerBase implements SolrCoreAware {
-	
-	private static final Logger log = LoggerFactory.getLogger(ChartSearchDataImportHandler.class);
-	
-	private final BlockingQueue<SolrQueryInfo> queue = new LinkedBlockingQueue<SolrQueryInfo>();
-	
-	private PatientInfoCache cache;
-	
-	private PatientInfoHolder patientInfoHolder;
-	
-	private ExecutorService executorService;
-	
-	private SolrConfigParams configParams;
+;
 	
 	private String myName = "csdataimport";
 	
