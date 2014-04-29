@@ -43,7 +43,7 @@ import org.apache.solr.handler.dataimport.custom.IndexClearStrategies;
 import org.apache.solr.handler.dataimport.custom.IndexClearStrategy;
 import org.apache.solr.handler.dataimport.custom.IndexClearStrategyBasicImpl;
 import org.apache.solr.handler.dataimport.custom.IndexClearStrategyNoActionImpl;
-import org.apache.solr.handler.dataimport.custom.IndexClearStrategyNonUsageTimeImpl;
+import //org.apache.solr.handler.dataimport.custom.IndexClearStrategyNonUsageTimeImpl;
 import org.apache.solr.handler.dataimport.custom.IndexClearStrategyWithIdImpl;
 import org.apache.solr.handler.dataimport.custom.IndexSizeManager;
 import org.apache.solr.handler.dataimport.custom.PatientInfoCache;
